@@ -1,0 +1,52 @@
+/*Global*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/*Header*/
+
+.header {
+  height: 80px;
+  max-width: 960;
+  background-color: #62346f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+}
+
+.compartir-icon img {
+  margin-right: 20px; 
+  display: inline-block;
+}
+
+
+
+
+
+
+/*Main*/
+
+
+
+
+
+
+/*Footer*/
