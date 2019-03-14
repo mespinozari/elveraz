@@ -17,36 +17,157 @@ h6 {
   margin-bottom: 10px;
 }
 
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*Header*/
 
 .header {
   height: 80px;
-  max-width: 960;
   background-color: #62346f;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .header a {
   color: white;
 }
 
-.compartir-icon img {
-  margin-right: 20px; 
-  display: inline-block;
+.lista {
+  font-size: 14px;
 }
 
+.lista a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px;
+  padding: 10px;
 
+}
 
+.header .logo{
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
 
+}
 
+.compartir-icon img {
+  display: inline-block;
+  margin: 10px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.compartir-icon img:hover{
+  transform: scale(1.5);
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*Main*/
 
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+.section1 .figure1 {
+  margin: 0px 20px 0px 0px;
+}
+
+.section1 .figure3 {
+  margin: 0px 0px 20px 20px;
+}
+.section1 .figure4 {
+  margin: 20px;
+}
 
 
+/*gallery*/
+
+.galery {
+  display: flex;
+}
+.galery .section2 {
+  margin: 0 10px 0 -10px;
+}
+.galery .section2 .article {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.galery .section3 .article{
+  margin-bottom: 20px;
+}
 
 
+/*Nav*/
+
+.nav li {
+  margin: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li a {
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+
+}
+.actual {
+  color: #7b3fb6;
+  font-weight: bold;
+}
+
+.leidas {
+  color: #009d78;
+  font-weight: bold;
+}
+
+.section2 {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.section3 {
+  display: flex;
+  flex-wrap: wrap;  
+}
 
 /*Footer*/
+
+.footer {
+  height: 80px;
+  background-color: #62346f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer h4 {
+  color: white;
+}
+
+.footer .tex-logo{
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
