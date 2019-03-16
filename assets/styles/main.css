@@ -114,9 +114,32 @@ a {
   margin: 10px;
   font-family: lato;
   font-size: 18px;
-  color: red;
+  color: whitesmoke;
   bottom: 0;
   margin-bottom: 50px;
+}
+
+.text3 {
+  position: absolute;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 15px;
+  font-family: lato;
+  font-size: 12px;
+  background-color: aqua;
+  color: black;
+  margin-left: 30px;
+}
+
+.text4 {
+  position: absolute;
+  margin: 10px;
+  font-family: lato;
+  font-size: 14px;
+  color: whitesmoke;
+  bottom: 0;
+  margin-bottom: 40px;
+  margin-left: 30px;
 }
 
 /*gallery*/
@@ -153,10 +176,22 @@ a {
   color: #7b3fb6;
   font-weight: bold;
 }
+.actual:hover {
+  background-color: #62346f;
+  color: #fff;
+  border-radius: 15px;
+  padding: 8px;
+}
 
 .leidas {
   color: #009d78;
   font-weight: bold;
+}
+.leidas:hover {
+  background-color: #009d78;
+  color: #fff;
+  border-radius: 15px;
+  padding: 8px;
 }
 
 .section2 {
@@ -185,7 +220,7 @@ a {
 
 .accesos a:hover {
   background-color: #62346f;
-  color: #000;
+  color: #fff;
   border-radius: 15px;
   padding: 5px;
 }
