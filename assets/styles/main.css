@@ -17,6 +17,10 @@ h6 {
   margin-bottom: 10px;
 }
 
+b {
+  font-weight: bold;
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -301,6 +305,143 @@ a {
   
 }
 
+/* Div Left */
+.left {
+  margin: 20px;
+}
 
+.left p {
+  margin-bottom: 10px;
+}
 
+/* Div Right */
 
+.right {
+  margin: 20px;
+}
+
+.right p  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.right div {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.right div p {
+  margin-bottom: 10px;
+}
+
+.noticia1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  
+}
+
+.clase1 {
+  position: relative;
+  padding-left: 10px; 
+
+}
+.clase1 .item {
+  background-color: #3a1045;
+  height: 10px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.ul li {
+  width: 20px;
+  height: 20px;
+  color: #3a1045;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.redes {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+.right .publicidad {
+  width: 304px;
+  height: 608px;
+}
+
+.right .a {
+  color: #959595;
+}
+
+.right .b {
+  background-color: red;
+  height: 10px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+
+}
+
+/* Index 3  -  Main*/
+
+.general-index3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 30px;
+}
+
+.encabezado3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.encabezado3 .a {
+  color: #959595;
+}
+
+.encabezado3 .b {
+  background-color: #3a1045;
+  height: 10px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+
+}
+
+.titulo3 {
+  font-family: lato;
+  font-size: 32px;
+}
+
+.li-index {
+
+  margin-bottom: 20px;
+}
+
+.noticia3 li {
+  margin-bottom: 20px;
+}
+
+.keiko {
+  font-size: 18px;
+}
