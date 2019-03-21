@@ -48,6 +48,7 @@ a {
 }
 .list-social li {
   margin-left: 10px;
+  
 }
 
 /*Header*/
@@ -151,6 +152,7 @@ article gral
   align-items: center;
 }
 
+
 /*
    article-one
 */
@@ -165,6 +167,16 @@ article gral
   padding: 8px;
 }
 
+/*
+   article-three
+*/
+.article-three {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
 
 .section1 {
   display: flex;
