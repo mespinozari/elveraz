@@ -35,6 +35,21 @@ a {
   position: relative;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/*
+  list-social
+*/
+.list-social {
+  display: flex;
+  align-items: center;
+}
+.list-social li {
+  margin-left: 10px;
+}
+
 /*Header*/
 
 .header {
@@ -104,12 +119,56 @@ a {
 
 /*Main*/
 
+/*
+article gral
+*/
+.article-gral,
+.article-gral article {
+  position: relative;
+}
+
+.article-gral .text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background:rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.article-gral .text a {
+  color: white;
+}
+
+.article-gral .time-social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*
+   article-one
+*/
+.article-one .text {
+  justify-content: space-between;
+}
+
+/*
+   article-two
+*/
+.article-two .text {
+  padding: 8px;
+}
+
+
 .section1 {
   display: flex;
   justify-content: space-between;
-}
-.section1 .figure1 {
-  margin: 0px 20px 0px 0px;
 }
 
 .section1 .figure3 {
@@ -128,6 +187,7 @@ a {
   font-size: 12px;
   background-color: aqua;
   color: black;
+  
 }
 
 .text2 {
@@ -178,6 +238,51 @@ a {
   margin-top: 290px;
 }
 
+.facebook2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: 290px;
+  
+}
+
+.facebook3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 290px;
+  margin-top: 50px;
+  
+}
+
+.facebook4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 270px;
+  margin-top: 130px;
+  
+}
+
 .twitter {
   position: absolute;
   width: 20px;
@@ -191,6 +296,50 @@ a {
   margin-right: 10px;
   margin-left: 390px;
   margin-top: 290px;
+}
+
+.twitter2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  margin-top: 290px;
+  
+}
+
+.twitter3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 260px;
+  margin-top: 50px;
+  
+}
+
+.twitter4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 230px;
+  margin-top: 130px;
 }
 
 
@@ -453,10 +602,10 @@ a {
 }
 .list-end h4{
   display: inline-block;
-  background-color: #f9a103;
-  color: #fff;
+  color: #f9a103;
   padding: 5px;
   border-radius: 15px;
+  border: 1px solid;
 }
 
 .keiko {
