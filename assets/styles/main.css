@@ -126,6 +126,7 @@ article gral
 .article-gral,
 .article-gral article {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .article-gral .text{
@@ -150,6 +151,23 @@ article gral
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.btn {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.galery {
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 
@@ -177,6 +195,27 @@ article gral
   justify-content: space-between;
 
 }
+
+/*
+   article-four
+*/
+
+.article-four {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 66.1%;
+  height: 100%;
+  
+}
+
+.article-five {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
 
 .section1 {
   display: flex;
@@ -235,124 +274,6 @@ article gral
   margin-left: 30px;
 }
 
-.facebook {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-  margin-left: 430px;
-  margin-top: 290px;
-}
-
-.facebook2 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 110px;
-  margin-top: 290px;
-  
-}
-
-.facebook3 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 290px;
-  margin-top: 50px;
-  
-}
-
-.facebook4 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 270px;
-  margin-top: 130px;
-  
-}
-
-.twitter {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-  margin-left: 390px;
-  margin-top: 290px;
-}
-
-.twitter2 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 70px;
-  margin-top: 290px;
-  
-}
-
-.twitter3 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 260px;
-  margin-top: 50px;
-  
-}
-
-.twitter4 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 230px;
-  margin-top: 130px;
-}
 
 
 
